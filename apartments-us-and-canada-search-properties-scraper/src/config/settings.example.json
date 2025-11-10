@@ -1,0 +1,22 @@
+{
+  "http": {
+    "timeout_secs": 25,
+    "max_connections": 40,
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36 BitbashScraper/1.0",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.9"
+    }
+  },
+  "crawler": {
+    "concurrency": 12,
+    "retry_attempts": 3,
+    "retry_backoff_base_ms": 400,
+    "follow_details": true,
+    "respect_robots": false
+  },
+  "output": {
+    "format": "json",
+    "path": "data/output.json"
+  }
+}
