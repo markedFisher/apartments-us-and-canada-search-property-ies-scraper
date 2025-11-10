@@ -1,0 +1,65 @@
+{
+  "description": "Schema for Apartments.com listing output",
+  "type": "object",
+  "properties": {
+    "url": { "type": ["string", "null"] },
+    "fullAddress": { "type": ["string", "null"] },
+    "monthlyRent": {
+      "type": "object",
+      "properties": { "min": { "type": ["number", "null"] }, "max": { "type": ["number", "null"] } }
+    },
+    "bedrooms": {
+      "type": "object",
+      "properties": { "min": { "type": ["number", "null"] }, "max": { "type": ["number", "null"] } }
+    },
+    "bathrooms": {
+      "type": "object",
+      "properties": { "min": { "type": ["number", "null"] }, "max": { "type": ["number", "null"] } }
+    },
+    "squareFeet": {
+      "type": "object",
+      "properties": { "min": { "type": ["number", "null"] }, "max": { "type": ["number", "null"] } }
+    },
+    "propertyInformation": { "type": "array" },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "walkScore": { "type": ["number", "null"] },
+        "transitScore": { "type": ["number", "null"] },
+        "bikeScore": { "type": ["number", "null"] },
+        "soundScore": { "type": ["number", "null"] }
+      }
+    },
+    "fees": { "type": "array" },
+    "petFees": { "type": "array" },
+    "parkingFees": { "type": "array" },
+    "amenities": { "type": "array" },
+    "models": { "type": "array" },
+    "listingId": { "type": ["string", "null"] },
+    "phoneNumber": { "type": ["string", "null"] },
+    "listingCity": { "type": ["string", "null"] },
+    "listingState": { "type": ["string", "null"] },
+    "listingZip": { "type": ["string", "null"] },
+    "listingCountry": { "type": ["string", "null"] },
+    "listingNeighborhood": { "type": ["string", "null"] },
+    "listingCounty": { "type": ["string", "null"] },
+    "listingDMA": { "type": ["string", "null"] },
+    "listingMinRent": { "type": ["number", "null"] },
+    "listingMaxRent": { "type": ["number", "null"] },
+    "location": {
+      "type": "object",
+      "properties": { "latitude": { "type": ["number", "null"] }, "longitude": { "type": ["number", "null"] } }
+    },
+    "rentals": { "type": "array" },
+    "carouselCollection": { "type": "array" },
+    "imageCount": { "type": ["number", "null"] },
+    "photoCount": { "type": ["number", "null"] },
+    "videoCount": { "type": ["number", "null"] },
+    "has3DTour": { "type": ["boolean", "null"] },
+    "hasVideo": { "type": ["boolean", "null"] },
+    "virtualTourCount": { "type": ["number", "null"] },
+    "profileType": { "type": ["string", "null"] },
+    "propertyType": { "type": ["string", "null"] }
+  },
+  "required": ["url"]
+}
