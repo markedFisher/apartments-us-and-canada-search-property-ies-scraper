@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.apartments.com/904-pittsburg-ave-winston-salem-nc/ymg5lhs/",
+    "fullAddress": "904 Pittsburg Ave Winston-Salem NC 27105 US",
+    "monthlyRent": { "min": 1250, "max": 1250 },
+    "bedrooms": { "min": 3, "max": 3 },
+    "bathrooms": { "min": 2, "max": 2 },
+    "squareFeet": { "min": 1200, "max": 1200 },
+    "listingCity": "Winston-Salem",
+    "listingState": "NC",
+    "listingZip": "27105",
+    "listingCountry": "US",
+    "phoneNumber": "336-930-9407",
+    "amenities": [
+      { "title": "Apartment Features", "value": ["Washer/Dryer Hookup", "Air Conditioning", "Patio", "Deck", "Yard"] }
+    ],
+    "parkingFees": [
+      { "parkingType": "Parking", "feeName": "Other", "feeAmount": "--" }
+    ],
+    "location": { "latitude": 36.11483, "longitude": -80.25371 },
+    "rentals": [
+      {
+        "Beds": 3,
+        "Baths": 2,
+        "Rent": 1250,
+        "Deposit": 1250,
+        "SquareFeet": 1200,
+        "UnitNumber": "904",
+        "AvailableDateText": "Available Now",
+        "MinLeaseTerm": 12,
+        "MaxLeaseTerm": 12
+      }
+    ],
+    "imageCount": 7,
+    "has3DTour": false,
+    "hasVideo": false,
+    "propertyType": "Apartment",
+    "listingNeighborhood": "Northeast Winston-Salem",
+    "listingCounty": "Forsyth",
+    "listingDMA": "Greensboro-High Point-Winston Salem, NC-VA"
+  }
+]
